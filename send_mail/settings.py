@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-%9fwo&^+!w(bzbpt%0xcfjkg9#jcxbtui6r_r@bxe0kx+4(zkz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ["*"]
 
 DEFAULT_FROM_EMAIL = 'sssbb5838@gmail.com'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
@@ -76,8 +76,14 @@ WSGI_APPLICATION = 'send_mail.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-# settings.py
-DATABASES = {}
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
