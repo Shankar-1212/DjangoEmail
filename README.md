@@ -40,7 +40,7 @@ RECIPIENT_ADDRESS=MAIL_ADDRESS
 
 ![alt text](https://github.com/Shankar-1212/DjangoEmail/blob/main/raw/Screenshot%202023-01-06%20at%2002-10-23%20App%20passwords.png)
 
-* Copy the password and paste at **EMAIL_HOST_PASSWORD** in .enc file
+* Copy the password and paste at **EMAIL_HOST_PASSWORD** in .env file
 * Now run the server 
 ```
 python manage.py runserver
