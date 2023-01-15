@@ -33,12 +33,13 @@ RECIPIENT_ADDRESS=MAIL_ADDRESS
 ```
 **Note**: In env file you have to enter your own generated password and your mail account has **2-Step Verification** turn on. 
 * Go to your google account settings and search for App passswords then choose Other(Custom name) give name and click on generate
-![alt text](https://github.com/Shankar-1212/DjangoEmail/blob/main/raw/Screenshot_20230106_015254.png)
+![f](https://user-images.githubusercontent.com/99824151/212527517-95a70e89-8469-46c8-80c5-ba021f400bb8.png)
+
 
 *  it should look like this:
 
 
-![alt text](https://github.com/Shankar-1212/DjangoEmail/blob/main/raw/Screenshot%202023-01-06%20at%2002-10-23%20App%20passwords.png)
+![d](https://user-images.githubusercontent.com/99824151/212527532-b2563526-be82-4cf7-b06f-8d075cd33caa.png)
 
 * Copy the password and paste at **EMAIL_HOST_PASSWORD** in .env file
 * Now run the server 
@@ -50,8 +51,10 @@ or
 python-3 manage.py runserver
 ```
 * Open the link generated  in terminal in your browser
-# Project Demonstration
-![alt text](https://github.com/Shankar-1212/DjangoEmail/blob/main/raw/Screenshot%202023-01-06%20at%2002-22-48%20Send%20Email.png)
-![alt text](https://github.com/Shankar-1212/DjangoEmail/blob/main/raw/Screenshot%202023-01-06%20at%2002-25-12%20Send%20Email.png)
-![alt text](https://github.com/Shankar-1212/DjangoEmail/blob/main/raw/Screenshot%202023-01-06%20at%2002-25-23%20Send%20Email.png)
-![alt text](https://github.com/Shankar-1212/DjangoEmail/blob/main/raw/Screenshot%202023-01-06%20at%2002-27-10%20Testing%20-%20shankarbhavani2004%40gmail.com%20-%20Gmail.png) 
+# Project Demonstrationg 
+
+![a](https://user-images.githubusercontent.com/99824151/212527394-2d08ed6f-e2f1-42f7-b1e3-c52daca9ed78.png)
+![b](https://user-images.githubusercontent.com/99824151/212527452-3815f5fc-a0f5-4aa2-bdf0-600fc0931475.png)
+![c](https://user-images.githubusercontent.com/99824151/212527483-2fef81b3-0756-4b3a-b047-9d1f6d49b6a4.png)
+![e](https://user-images.githubusercontent.com/99824151/212527567-34e6227d-a9c8-4318-91f6-f85df22c46dc.png)
+
